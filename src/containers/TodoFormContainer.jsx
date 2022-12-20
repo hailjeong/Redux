@@ -1,5 +1,5 @@
 import { useCallback } from "react";
-import { connect, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import { addTodo } from "../\bstore/actions";
 import TodoForm from "../components/TodoForm";
 
