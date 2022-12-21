@@ -5,6 +5,8 @@ export default function TodoForm({ add }) {
 
   const click = () => {
     add(inputRef.current.value);
+    inputRef.current.focus();
+    inputRef.current.value = "";
   };
 
   const onkeypress = (e) => {
